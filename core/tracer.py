@@ -2,6 +2,16 @@
 # LangSmith tracing setup
 # Concept: Tracing — see every LLM call in LangSmith dashboard
 
+"""
+tracer.py
+---------
+Configures LangSmith tracing for monitoring LLM calls,
+chain execution, and debugging RAG pipeline performance.
+"""
+
+# Initialize LangSmith tracer with project-level tracking
+# Set LANGCHAIN_TRACING_V2=true in .env to enable
+
 import os
 from dotenv import load_dotenv
 
