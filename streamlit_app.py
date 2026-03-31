@@ -1,3 +1,23 @@
+"""
+streamlit_app.py
+----------------
+Streamlit frontend for interacting with the RAG pipeline.
+Features:
+  - Text input for user questions
+  - Displays AI answer with source references
+  - Shows RAGAS evaluation scores in sidebar
+  - Session-based chat history
+"""
+
+# Page config — set title, icon, and layout
+# Sidebar: evaluation metrics display and session controls
+
+# Main chat area — render conversation history
+# On user submit: call FastAPI /ask endpoint and display response
+
+# Display source documents used to generate the answer
+# This improves transparency and trust in the AI response
+
 # streamlit_app.py
 # RAG Evaluator — Streamlit Dashboard
 
