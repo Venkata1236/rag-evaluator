@@ -1,3 +1,17 @@
+"""
+dataset.py
+----------
+Handles loading and preparing the evaluation dataset.
+Each entry contains: question, ground_truth answer, and context.
+Used by evaluator.py to run RAGAS metrics.
+"""
+
+# Load dataset from local JSON or HuggingFace dataset
+# Format expected: [{"question": str, "ground_truth": str, "contexts": list}]
+
+# Convert to HuggingFace Dataset format required by RAGAS
+
+
 # core/dataset.py
 # Test questions and expected answers for RAG evaluation
 # Concept: Dataset — ground truth Q&A pairs used to measure RAG accuracy
