@@ -1,3 +1,23 @@
+"""
+evaluator.py
+------------
+Evaluates RAG pipeline quality using RAGAS framework.
+
+Metrics computed:
+  - faithfulness     : Is the answer grounded in context?
+  - answer_relevancy : Is the answer relevant to the question?
+  - context_recall   : Does context cover the ground truth?
+  - context_precision: Is retrieved context actually useful?
+"""
+
+# Initialize RAGAS metrics — customize which metrics to run
+# Higher faithfulness = less hallucination
+# Higher context_precision = better retriever performance
+
+# Convert results to pandas DataFrame for easy inspection and export
+# Save scores to CSV for version tracking across runs
+
+
 # core/evaluator.py
 # Evaluate RAG accuracy — precision, recall, hallucination detection
 # Concept: LangSmith evaluators + custom metrics
