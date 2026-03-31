@@ -1,3 +1,20 @@
+"""
+rag_chain.py
+------------
+Builds the RAG (Retrieval Augmented Generation) pipeline.
+Steps:
+  1. Load and split documents
+  2. Embed and store in vector DB (FAISS/Chroma)
+  3. Create retriever
+  4. Connect to LLM via LangChain chain
+"""
+
+# Step 1: Load documents from the source directory
+# Step 2: Split into chunks — chunk_size and overlap tuned for context quality
+# Step 3: Embed using OpenAI/HuggingFace embeddings
+# Step 4: Store embeddings in vector store for fast similarity search
+# Step 5: Chain retriever + LLM for question answering
+
 # core/rag_chain.py
 # RAG pipeline to evaluate
 # Concept: Build FAISS RAG chain — same as before but now we'll evaluate it
